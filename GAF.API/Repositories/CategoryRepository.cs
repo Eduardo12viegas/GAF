@@ -10,11 +10,6 @@ public class CategoryRepository : ICategoryRepository
         throw new NotImplementedException();
     }
 
-    public Task<Category> DeleteAsync(int id, string userId)
-    {
-        throw new NotImplementedException();
-    }
-
     public Task<IEnumerable<Category>> GetAllByUserIdAsync(string userId)
     {
         throw new NotImplementedException();
@@ -29,14 +24,20 @@ public class CategoryRepository : ICategoryRepository
     {
         throw new NotImplementedException();
     }
-
-    public Task<bool> HasTranactionAsync(int id, string userId)
-    {
-        throw new NotImplementedException();
-    }
-
     public Task<Category> UpdateAsync(Category category)
     {
         throw new NotImplementedException();
     }
+
+      public Task<Category> DeleteAsync(int id, string userId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<bool> HasTranactionAsync(int id, string userId)
+    {
+        throw new NotImplementedException();
+        
+    }
+
 }
